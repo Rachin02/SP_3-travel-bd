@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./styles/home/hero.css" />
+    <link rel="stylesheet" href="./styles/home/discover.css" />
+    <link rel="stylesheet" href="./styles/home/features.css" />
+    <link rel="stylesheet" href="./styles/home/services.css" />
+    <link rel="stylesheet" href="./styles/home/travel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Travel BD</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="nav">
+            <span>Travel BD</span>
+             <ul>
+              <li>
+                <a href="/" class="link">Home</a>
+              </li>
+              <li>
+                <a href="/templates/destinations.html" class="link">Destinations</a>
+              </li>
+              <li>
+                <a href="/templates/services.html" class="link">Features</a>
+              </li>
+              <li>
+                <a href="/templates/about.html" class="link">About Us</a>
+              </li>
+            </ul>
+              <div class="cta first">
+                <a class="primary-btn small">Log In</a>
+              </div>
+            <i
+              class="fa-solid fa-bars"
+              style="color: #000000"
+              id="nav-icon"
+              onclick="toggleSidebar()"
+            ></i>
+            <div id="sidebar" class="sidebar">
+              <ul>
+                <li>
+                  <a href="/" class="link">Home</a>
+                  <a href="/templates/about.html" class="link">About Us</a>
+                </li>
+                <li>
+                  <a href="/templates/destinations.html" class="link"
+                    >Destinations</a
+                  >
+                  <a href="/templates/services.html" class="link">Features</a>
+                </li>
+                <li>
+                  <a href="./templates/prices.html" class="link">Pricing</a>
+                  <a href="./templates/reviews.html" class="link">Reviews</a>
+                </li>
+              </ul>
+              <div class="cta second">
+                <a class="primary-btn small">Log In</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="container fade-in">
+          <h1>Lifelong Memories Just A Few Days Away</h1>
+          <div>
+            <button id="join" class="primary-btn">Join With Us</button>
+            <div>
+              <!-- nothing here -->
+            </div>
+          </div>
+          <div class="hero__content">
+            <img
+              src="./images/Heroimage.png"
+              alt="Hero Image"
+              class="hero-img"
+            />
+            <p>What Excites You Most?</p>
+            <div>
+              <div>
+                <span>01</span>
+                <img
+                  src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                  alt="Trekking Image"
+                />
+                <div>
+                  <h3>Tracking</h3>
+                  <p>Climbing the tallest mountain in Chattagram</p>
+                </div>
+              </div>
+              <div>
+                <span>02</span>
+                <img
+                  src="https://images.unsplash.com/photo-1629248457649-b082812aea6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                  alt="Rafting Image"
+                />
+                <div>
+                  <h3>Rafting</h3>
+                  <p>Let's meet the wildest river and rafting on them!</p>
+                </div>
+              </div>
+              <div>
+                <span>03</span>
+                <img
+                  src="https://images.unsplash.com/photo-1562051544-c8a253660284?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1091&q=80"
+                  alt="Windsurfing Image"
+                />
+                <div>
+                  <h3>Wind Surfing</h3>
+                  <p>Didn't see the tallest wave on a rainy day?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="discover" class="fade-in">
+        <div class="container">
+          <h2>Discover the touch of Nature</h2>
+          <div>
+            <div class="card">
+              <img
+                src="./images/cox.jpg"
+                class="card__background"
+              />
+              <div class="location">
+                <img src="./images/icons/map-pin.png" alt="Location Icon" />
+                <p>Cox's Bazar</p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="images/saint.jpg"
+                class="card__background"
+              />
+              <div class="location">
+                <img src="./images/icons/map-pin.png" alt="Location Icon" />
+                <p>Saint martin</p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="images/ranga.jpg"
+                class="card__background"
+              />
+              <div class="location">
+                <img src="./images/icons/map-pin.png" alt="Location Icon" />
+                <p>Rangamati</p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="images/sajek.jpg"
+                class="card__background"
+              />
+              <div class="location">
+                <img src="./images/icons/map-pin.png" alt="Location Icon" />
+                <p>Sajek velly</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="fade-in">
+        <div class="container">
+          <div>
+            <h2>What services we provide</h2>
+            <div>
+              <div>
+                <h3><span>01.</span> Travel Plan</h3>
+                <p>
+                  Travel plans are not really an instrument themselves but a
+                  delivery mechanism or strategy for mostly others
+                </p>
+              </div>
+              <div>
+                <h3><span>02.</span> Flight Booking</h3>
+                <p>
+                  Discover your next dream destination. Find deals on domestic
+                  and international flights
+                </p>
+              </div>
+              <div>
+                <h3><span>03.</span> Accomodation</h3>
+                <p>
+                  Lodging, food and services or travelling space and related
+                  services.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="image__container">
+            <img
+              src="https://images.unsplash.com/photo-1553697388-94e804e2f0f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80"
+              alt="Passport Image"
+              class="circular__img1"
+            />
+            <img
+              src="https://i.pinimg.com/736x/c3/d3/3c/c3d33c9944f7bdbe8b83d932afe1a58a.jpg"
+              alt="Surf Van Image"
+              class="circular__img2"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1579991155656-4647abc8d4b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+              alt="Airplane Image"
+              class="circular__img3"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1526918761918-da528d9558c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1076&q=80"
+              alt="Surfboard Image"
+              class="circular__img4"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="plans" class="fade-in">
+        <div class="container">
+          <div>
+            <img
+              src="./images/Tourist.png"
+              alt="Traveller with flight ticket"
+            />
+          </div>
+          <div>
+            <h2>Plan easy, Play Less & experience more</h2>
+            <div>
+              <p>
+                Traveling is important in life because it will open you up to a
+                new way of living and being. You will experience new connections
+                with people and places and immerse in different cultures, which
+                can help widen you perspective.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="travel" class="fade-in">
+        <div class="container">
+          <h2>Revolutionsing the ways we travel</h2>
+          <div>
+            <div>
+              <img
+                src="images/cox.jpg"
+                alt="Hot Air Balloon Images"
+              />
+              <h3>Custom Booking</h3>
+              <p>
+                Custom booking window feature allows you to restrict the
+                available dates for booking for particular duration
+              </p>
+            </div>
+            <div>
+              <img
+                src="images/sajek.jpg"
+                alt="Life Guard House Image"
+              />
+              <h3>End-to-End Messaging</h3>
+              <p>
+                If you're looking for a messaging app that offers secure
+                end-to-end encryption, here's a roundup of the best apps you can
+                use.
+              </p>
+            </div>
+            <div>
+              <img
+                src="images/sylhet.jpg"
+                style="object-position: bottom"
+                alt="Umbrellas Images"
+              />
+              <h3>Instant Itinerary</h3>
+              <p>
+                Get a verifiable Flight and Hotel itineraryj in less than 5
+                minutes for your next Visa travel application to the place
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="wishlist" id="wishlist">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <div id="wishlist-container" class="wishlist-container">
+      <div class="wishlist-content" id="wishlist-content"></div>
+      <div>
+        <p style="margin-bottom: 1rem;" id="estimated">Total Estimated Price : <strong id="total-amount">0</strong></p>
+        <button id="buy"class="primary-btn">Checkout Now</button>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div>
+          <div class="socials">
+            <h3>Leading the way in adventure</h3>
+            <div>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook-f" style="color: #000000;"></i>
+              </a>
+              
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+              </a>
+              <a href="https://www.twitter.com/" target="_blank">
+                <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="fa-brands fa-youtube" style="color: #000000;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="newsletter">
+            <h3>Join Our Newsletter</h3>
+            <input type="email" placeholder="Enter your e-mail" />
+            <img
+              src="./images/icons/cta-btn.png"
+              alt="Submit Icon"
+              onclick="showPopup()"
+            />
+            <div id="popup" class="popup"></div>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <div>
+            <span>Travel BD</span>
+            <p>
+              Travell plans are not really an instrument themselves but a
+              delivery mechanism or strategy for mostly others
+            </p>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <a href="/">+8801950000000</a>
+            <a href="">info@travelBD.com</a>
+            <a href="">support@travelBD.com</a>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <a href="/">About Us</a>
+            <a href="">Features</a>
+            <a href="">Careers</a>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <p>@2024 travelBD | All Rights Reserved</p>
+
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./main.js
+  "></script>
+  <script>
+  </script>
+</html>
